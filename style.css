@@ -1,7 +1,31 @@
-html, body {height:100%;}
-.wrap {
-  height:auto !important;
-  height:100%;
-  min-height:100%;
-  background: #f1f1f1; 
-}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {background: transparent;	border: 0;	margin: 0;	padding: 0; vertical-align: baseline; font-family: tahoma, Arial, Sans; font-size: 12px}
+body {line-height: 1; background: #fff; overflow-x: hidden; height:auto !important; min-height:100%;}
+html, body {height:100% !important;}
+h1, h2, h3, h4, h5, h6 {	font-weight: normal;}
+ol, ul {list-style: none;}
+blockquote {quotes: none;}
+blockquote:before, blockquote:after {	content: ''; content: none;}
+del {text-decoration: line-through;}
+a img {border: none;}
+.clear {float: none; clear: both;}
+
+#header {height: 48px; width: 100%; background: #f1f1f1; position: relative;}
+#logo {font-size: 32px; float: left; width: 250px; text-align: center;}
+#header a {color: #2d313a; text-decoration: none}
+#qtask-field {border: 1px #bac2c7 solid; border-radius: 4px; height: 30px; width: auto; min-width: 700px; margin: 6px 0; padding: 0 0 0 20px; width: auto; max-width: 100%;}	
+
+.h {height:95% !important; min-height:95%;}
+
+#block1 {background: #2d313a; width: 24%; min-width: 250px; max-width: 250px; float: left; color: #969db0;}
+#block2 {background: #edf3f8; width: 35%; min-width: 357px; max-width: 500px; float: left;}
+#block3 {background: #ffffff; width: auto; padding: 8px}
+
+/* block1 */
+ul#main-list {list-style: none;}
+#main-list li{height: 38px; line-height: 38px; padding: 0 8px}
+#main-list li:hover{background: #5598c2}
+#main-list li:hover a{color: #fff;}
+#main-list li a{color: #969db0; text-decoration: none; font-size: 14px}
+
+/* block2 */
+.block-title {background: #b8d6ee; height: 43px; border-top: 1px solid #4a5158; padding: 0 8px}
