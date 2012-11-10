@@ -33,3 +33,4 @@ td.prior-1, td.prior-2, td.prior-3{width: 4px; padding: 0px}
 .comment img {width: 64px; height: 64px; padding: 0 8px 8px 0}
 
 #divider {position: fixed; height: 100%; width: 1px; background: #f1f1f1; border-radius: 2px; left: 50%; top: 38px}
+.blank-img {position: fixed; width: 190px; height: 300px; top: 50%; left: 50%; margin: -150px 0 0 -95px; background: url(../images/crm.png)}

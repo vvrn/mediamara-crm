@@ -1,9 +1,1 @@
-Hi there!
-
-This file is created for first commit!
-
-See you.
-
-Maybe work? plz
-
-it should be
+last upd: 0:05 // 11.11.2012 

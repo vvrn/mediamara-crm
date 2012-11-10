@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="grey-bg">
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="row-fluid">
+				<ul class="nav nav-tabs grey-bg">
+					<li><a class="btn btn-primary" href="blank.html"><i class="icon-fire icon-white"></i></a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="project.html"><span class="add-on"><i class="icon-briefcase"></i></span> Проекты <span class="badge badge-info">17</span> <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="project.html">Автозапчасти<span class="badge badge-info pull-right">8</span></a></li>
+								<li><a href="project.html">Пятиборье сайт<span class="badge badge-info pull-right">5</span></a></li>
+								<li><a href="project.html">Карта в векторе<span class="badge badge-success pull-right">3</span></a></li>
+								<li><a href="project.html">Сайт расходки<span class="badge badge-important pull-right">2</span></a></li>
+								<li><a href="project.html">Дизайн Wellness<span class="badge badge-inverse pull-right">2</span></a></li></a></li>
+								<li><a href="project.html">Сайт Полосы</a></li>
+								<li><a href="project.html">Редиз странички Newcom</a></li>
+								<li><a href="project.html">Отрисовка NordHouse</a></li>
+								<li><a href="project.html">Ремонт-Здорово</a></li>
+								<li><a href="project.html">Макет наружки</a></li>
+								<li><a href="project.html">Альбом выпускной</a></li>
+								<li><a href="project.html">Продвижение Водяной</a></li>
+								<li><a href="project.html">Магазин печей</a></li>
+								<li><a href="project.html">Бытовки</a></li>
+								<li><a href="project.html">Баннер Grandorf</a></li>
+								<li><a href="project.html">Lanbuild</a></li>
+								<li><a href="project.html">Дизайн Туризм</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#"><span class="add-on"><i class="icon-file"></i></span> Документы</a></li>
+					<li><a href="#"><span class="add-on"><i class="icon-comment"></i></span> Сообщения</a></li>
+					<li><a href="#"><span class="add-on"><i class="icon-edit"></i></span> Заметки</a></li>
+					<li><a href="#"><span class="add-on"><i class="icon-user"></i></span> Контакты</a></li>
+					<li><a href="#"><span class="add-on"><i class="icon-tasks"></i></span> Статистика</a></li>
+				</ul>
+			</div>
+			
+			
+			<div class="row-fluid" id="main">
+				<div class="blank-img"></div>
+			</div>
+		</div>
+	</div>
+
+<!-- modals -->
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="add-on"><i class="icon-remove"></i></span></button>
+		<h3 id="myModalLabel">Добавить задачу</h3>
+	</div>
+	<div class="modal-body">
+		<input type="text" id="inputEmail" placeholder="Задача" class="input-block-level">
+		<textarea class="input-block-level" rows="5" placeholder="Суть задачи"></textarea>
+		<hr/>
+		<div class="row-fluid">
+			
+			<div class="span4">
+			<label>Приоритет:</label>
+				<select class="span11">
+				  <option>Высокий</option>
+				  <option>Обычный</option>
+				  <option>Низкий</option>
+				</select>
+			</div>
+			
+			<div class="span4">
+				<label>Старт:</label>
+				<div class="input-append date" id="dp3" data-date="21.12.2012" data-date-format="dd.mm.yyyy">
+				  <input class="span9" size="16" type="text" value="21 декабря 2012">
+				  <span class="add-on"><i class="icon-calendar"></i></span>
+				</div>	
+			</div>
+			
+			
+			<div class="span4">
+				<label>Дедлайн:</label>
+				<div class="input-append date" id="dp3" data-date="21.12.2012" data-date-format="dd.mm.yyyy">
+				  <input class="span9" size="16" type="text" value="21 декабря 2012">
+				  <span class="add-on"><i class="icon-calendar"></i></span>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Отмена</button>
+		<button class="btn btn-primary">Добавить задачу</button>
+	</div>
+</div>
+
+
+<!-- /modals -->
+	
+<footer>
+</footer>	
+</div>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
