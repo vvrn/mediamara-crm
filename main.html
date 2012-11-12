@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="white-bg">
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="row-fluid">
+				<ul class="nav nav-tabs grey-bg">
+					<li>
+						<div class="logged-user btn-group">
+							<a class="logged-user btn dropdown-toggle" data-toggle="dropdown" href="#"><img src="http://cs11345.userapi.com/u96130176/e_cd60ccd9.jpg" class="logged-user avatar"></a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><i class="icon-cog"></i> Админка</a></li>
+							<li><a href="#"><i class="icon-user"></i> Профиль</a></li>
+							<li class="divider"></li>
+							<li><a href="#"><i class="icon-off"></i> Выход</a></li>
+						</ul>
+						</div>
+					</li>
+					
+					<li class="active"><a href="main.html" class="muted"><i class="icon-home"></i> Главная</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle text-info" data-toggle="dropdown" href="project.html"><span class="add-on"><i class="icon-briefcase icon-blue"></i></span> Проекты <b class="caret"></b></a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+							<li><a href="#add-project" data-toggle="modal"><i class="icon-plus"></i> Добавить проект</a></li>
+							<li class="divider"></li>
+							<li><a href="project.html">Автозапчасти<span class="badge badge-info pull-right">8</span></a></li>
+							<li><a href="project.html">Пятиборье сайт<span class="badge badge-info pull-right">5</span></a></li>
+							<li><a href="project.html">Карта в векторе<span class="badge badge-success pull-right">3</span></a></li>
+							<li><a href="project.html">Сайт расходки<span class="badge badge-important pull-right">2</span></a></li>
+							<li><a href="project.html">Дизайн Wellness<span class="badge badge-inverse pull-right">2</span></a></li></a></li>
+							<li><a href="project.html">Сайт Полосы</a></li>
+							<li><a href="project.html">Редиз странички Newcom</a></li>
+							<li><a href="project.html">Отрисовка NordHouse</a></li>
+							<li><a href="project.html">Ремонт-Здорово</a></li>
+							<li><a href="project.html">Макет наружки</a></li>
+							<li class="dropdown-submenu">
+								<a tabindex="-1" href="#">Еще...</a>
+								<ul class="dropdown-menu">
+									<li><a href="project.html">Продвижение Водяной</a></li>
+									<li><a href="project.html">Магазин печей</a></li>
+									<li><a href="project.html">Бытовки</a></li>
+									<li><a href="project.html">Баннер Grandorf</a></li>
+									<li><a href="project.html">Lanbuild</a></li>
+									<li><a href="project.html">Дизайн Туризм</a></li>
+								</ul>
+							</li>
+							<li class="divider"></li>
+							<li><a href="project.html"><i class="icon-inbox"></i> Архив проектов</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#" class="muted"><span class="add-on"><i class="icon-file icon-grey"></i></span> Документы</a></li>
+					<li><a href="#" class="muted"><span class="add-on"><i class="icon-comment icon-blue"></i></span> Сообщения</a></li>
+					<li><a href="#" class="muted"><span class="add-on"><i class="icon-edit icon-grey"></i></span> Заметки</a></li>
+					<li><a href="#" class="muted"><span class="add-on"><i class="icon-user icon-grey"></i></span> Контакты</a></li>
+					<li><a href="#" class="muted"><span class="add-on"><i class="icon-tasks icon-grey"></i></span> Статистика</a></li>
+				</ul>
+			</div>
+			
+			
+			<div class="row-fluid">
+				<div class="blank-img"></div>
+			</div>
+		</div>
+	</div>
+
+<!-- modals -->
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="add-on"><i class="icon-remove"></i></span></button>
+		<h3 id="myModalLabel">Добавить задачу</h3>
+	</div>
+	<div class="modal-body">
+		<input type="text" id="inputEmail" placeholder="Задача" class="input-block-level">
+		<textarea class="input-block-level" rows="5" placeholder="Суть задачи"></textarea>
+		<hr/>
+		<div class="row-fluid">
+			
+			<div class="span4">
+			<label>Приоритет:</label>
+				<select class="span11">
+				  <option>Высокий</option>
+				  <option>Обычный</option>
+				  <option>Низкий</option>
+				</select>
+			</div>
+			
+			<div class="span4">
+				<label>Старт:</label>
+				<div class="input-append date" id="dp3" data-date="21.12.2012" data-date-format="dd.mm.yyyy">
+				  <input class="span9" size="16" type="text" value="21 декабря 2012">
+				  <span class="add-on"><i class="icon-calendar"></i></span>
+				</div>	
+			</div>
+			
+			
+			<div class="span4">
+				<label>Дедлайн:</label>
+				<div class="input-append date" id="dp3" data-date="21.12.2012" data-date-format="dd.mm.yyyy">
+				  <input class="span9" size="16" type="text" value="21 декабря 2012">
+				  <span class="add-on"><i class="icon-calendar"></i></span>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Отмена</button>
+		<button class="btn btn-primary">Добавить задачу</button>
+	</div>
+</div>
+
+
+<!-- /modals -->
+	
+<footer>
+</footer>	
+</div>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

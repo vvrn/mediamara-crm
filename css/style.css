@@ -1,8 +1,43 @@
+/* ---COMMON--- */
+
 body {line-height: 1; background: #fff; overflow-x: hidden; height:auto !important; min-height:100%; font-size: 12px; font-family: 'Open Sans', tahoma, Arial, Sans; color: #666666}
 .clear {float: none; clear: both;}
 html, body {height:100% !important;}
 h1, h2, h3, h4, h5, h6 {	font-weight: normal;}
 .container-fluid {padding: 0px !important}
+
+
+.icon-blue,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: url("../images/glyphicons-halflings-blue.png");
+}
+
+.icon-grey,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: url("../images/glyphicons-halflings-grey.png");
+}
 
 .leftmenu {padding-top: 20px;}
 
@@ -10,27 +45,56 @@ h1, h2, h3, h4, h5, h6 {	font-weight: normal;}
 .pad-10 {padding: 20px;}
 h1 {padding: 15px 0;}
 
-.grey-bg {background: #f1f1f1}
+.grey-bg {background: #f1f1f1 url(../images/bg.png)}
+.white-bg {background: #fff}
 
-/* login */
+#divider {position: fixed; height: 100%; width: 1px; background: #f1f1f1; border-radius: 2px; left: 50%; top: 38px}
+
+.dropdown-menu li a{font-size: 11px !important}
+.dropdown-menu {margin-top: -1px}
+
+.blank-img {position: fixed; width: 190px; height: 300px; top: 50%; left: 50%; margin: -150px 0 0 -95px; background: url(../images/crm.png)}
+.sub-title {padding: 0 0 8px 0}
+.sub-title h4 span{font-weight: 100; color: #aaa}
+.leftbar {padding: 0 0 0 10px}
+.rightbar {padding: 0 10px 0 0}
+/* ---/COMMON/--- */
+
+
+
+/* ---LOGIN-PAGE--- */
 .modal.login-form {width: 250px; margin-left: -125px; border: none;}
 #login-form button[type="submit"], .login-form a#submit {width: 190px}
 #forg-pwd {margin: 5px 0; text-decoration: underline;}
-/* /login */
-
-#task-bar {}
-.project-list {padding: 5px 2px}
-.barz {padding: 0 10px}
+/* ---/LOGIN-PAGE/--- */
 
 
-td.prior-1, td.prior-2, td.prior-3{width: 4px; padding: 0px}
-.prior-1 {background: #ff0000}
-.prior-2 {background: #0099ff}
-.prior-3 {background: #669933}
+/* ---TASKBAR ---*/
+.logged-user .avatar {width: 38px; height: 36px}
+a.logged-user {padding: 0px}
+/* ---/TASKBAR/---*/
 
-.comment {min-height: 64px; padding: 8px 0;}
-.comment .media-body p{border-bottom: 1px #f1f1f1 solid}
-.comment img {width: 64px; height: 64px; padding: 0 8px 8px 0}
 
-#divider {position: fixed; height: 100%; width: 1px; background: #f1f1f1; border-radius: 2px; left: 50%; top: 38px}
-.blank-img {position: fixed; width: 190px; height: 300px; top: 50%; left: 50%; margin: -150px 0 0 -95px; background: url(../images/crm.png)}
+/* ---TASKS--- */
+.tasks-table th {background: #f7f7f7}
+.tasks-table tr:hover {background: #f1f1f1}
+.tasks-table td, .tasks-table th {vertical-align: middle}
+.tasks-table .prior {width: 4px; padding: 0px}
+.tasks-table .task-name {width: 40%;}
+.tasks-table .deadline{width: 40px; color: #aaa}
+.tasks-table .chbox {width: 20px;}
+.tasks-table .worker {}
+.tasks-table .prior.high {background: #ff0000}
+.tasks-table .prior.norm {background: #0099ff}
+.tasks-table .prior.success {background: #669933}
+.tasks-table .success {text-decoration: line-through;}
+/* ---/TASKS/--- */
+
+/* ---COMMENTS--- */
+.comments-list {margin-left: 0}
+.comment {padding: 8px 0; border-top: 1px #f1f1f1 solid; }
+.comment h5{font-weight: 600}
+.comment h5 span{font-weight: normal}
+.comment-date {font-size: 11px; color: #bbb}
+.comment .avatar img{width: 48px; height: 48px; padding: 0 8px 8px 0; float: left}
+/* ---/COMMENTS/--- */
