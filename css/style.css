@@ -1,5 +1,5 @@
 /* ---COMMON--- */
-body {line-height: 1; background: #fff; overflow-x: hidden; height:auto !important; min-height:100%; font-size: 12px; font-family: 'Open Sans', tahoma, Arial, Sans; color: #666666}
+body {line-height: 1; background: #fff; overflow-x: hidden; min-height:100%; font-size: 12px; font-family: 'Open Sans', tahoma, Arial, Sans; color: #666666}
 .clear {float: none; clear: both;}
 html, body {height:100% !important;}
 h1, h2, h3, h4, h5, h6 {	font-weight: normal;}
@@ -90,7 +90,7 @@ a.logged-user {padding: 0px}
 /* ---/TASKS/--- */
 
 /* ---COMMENTS--- */
-.comments-list {margin-left: 0}
+.comments-list {margin-left: 90}
 .comment {padding: 8px 0; border-top: 1px #f1f1f1 solid; }
 .comment h5{font-weight: 600}
 .comment h5 span{font-weight: normal}

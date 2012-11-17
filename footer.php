@@ -1,4 +1,4 @@
-﻿		</div> <!-- /span12 -->
+		</div> <!-- /span12 -->
 	</div> <!-- /row-fluid -->
 
 	<footer>

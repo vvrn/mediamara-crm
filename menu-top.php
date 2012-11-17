@@ -1,4 +1,4 @@
-﻿<!-- главное меню -->
+<!-- главное меню -->
 			<div class="row-fluid">
 				<ul class="nav nav-tabs grey-bg">
 					<li>

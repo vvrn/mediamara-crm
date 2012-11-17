@@ -1,4 +1,4 @@
-﻿<!-- Добавить задачу -->
+<!-- Добавить задачу -->
 <div id="add-task" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="add-taskLabel" aria-hidden="true">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="add-on"><i class="icon-remove"></i></span></button>
@@ -43,7 +43,6 @@
 	</div>
 </div>
 
-
 <!-- Добавить проект -->
 <div id="add-project" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="add-project-Label" aria-hidden="true">
 	<div class="modal-header">
@@ -63,7 +62,6 @@
 				  <span class="add-on"><i class="icon-calendar"></i></span>
 				</div>	
 			</div>
-			
 			
 			<div class="span6">
 				<label>Дедлайн:</label>

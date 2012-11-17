@@ -1,0 +1,21 @@
+AddDefaultCharset UTF-8
+<Files "*.php">
+#Order allow,deny
+#Deny from all
+</Files>
+<Files "*.php3">
+Order allow,deny
+Deny from all
+</Files>
+<Files "*.phph">
+Order allow,deny
+Deny from all
+</Files>
+<Files "*.tpl">
+Order allow,deny
+Deny from all
+</Files>
+<Files "*.txt">
+Order allow,deny
+Deny from all
+</Files>

@@ -1,6 +1,6 @@
-﻿<?php require_once('header.php'); ?>
-<?php require_once('modals.php'); ?>
-<?php require_once('menu-top.php'); ?>
+<?php include_once('./header.php'); ?>
+<?php include_once('./modals.php'); ?>
+<?php include_once('./menu-top.php'); ?>
 			<div class="row-fluid">
 				<div class="span6 leftbar">
 					<div class="row-fluid">
@@ -9,7 +9,6 @@
 								<ul class="dropdown-menu">
 									<li><a href="#"><i class="icon-pencil"></i> Изменить</a></li>
 									<li><a href="#"><i class="icon-eye-open"></i> Следить</a></li>
-									<li class="divider"></li>
 									<li><a href="#"><i class="icon-check"></i> Завершить</a></li>
 								</ul>
 							</div>
@@ -122,4 +121,4 @@
 				</div>
 			</div>
 
-<?php require_once('footer.php'); ?>
+<?php include_once('./footer.php'); ?>

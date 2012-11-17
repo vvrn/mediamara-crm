@@ -1,7 +1,7 @@
-﻿<?php require_once('header.php'); ?>
-<?php require_once('modals.php'); ?>
-<?php require_once('menu-top.php'); ?>
+<?php include_once('header.php'); ?>
+<?php include_once('modals.php'); ?>
+<?php include_once('menu-top.php'); ?>
 	<div class="row-fluid">
 		<div class="blank-img"></div>
 	</div>
-<?php require_once('footer.php'); ?>
+<?php include_once('footer.php'); ?>
