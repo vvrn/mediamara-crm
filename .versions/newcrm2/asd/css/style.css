@@ -1,0 +1,35 @@
+body {line-height: 1; background: #fff; overflow-x: hidden; height:auto !important; min-height:100%; font-size: 12px; font-family: 'Open Sans', tahoma, Arial, Sans; color: #666666}
+.clear {float: none; clear: both;}
+html, body {height:100% !important;}
+h1, h2, h3, h4, h5, h6 {	font-weight: normal;}
+.container-fluid {padding: 0px !important}
+
+.leftmenu {padding-top: 20px;}
+
+.bshadow {box-shadow: 0px 0px 23px #ccc; border: 1px ridge #ddd}
+.pad-10 {padding: 20px;}
+h1 {padding: 15px 0;}
+
+.grey-bg {background: #f1f1f1}
+
+/* login */
+.modal.login-form {width: 250px; margin-left: -125px; border: none;}
+#login-form button[type="submit"], .login-form a#submit {width: 190px}
+#forg-pwd {margin: 5px 0; text-decoration: underline;}
+/* /login */
+
+#task-bar {}
+.project-list {padding: 5px 2px}
+.barz {padding: 0 10px}
+
+
+td.prior-1, td.prior-2, td.prior-3{width: 4px; padding: 0px}
+.prior-1 {background: #ff0000}
+.prior-2 {background: #0099ff}
+.prior-3 {background: #669933}
+
+.comment {min-height: 64px; padding: 8px 0;}
+.comment .media-body p{border-bottom: 1px #f1f1f1 solid}
+.comment img {width: 64px; height: 64px; padding: 0 8px 8px 0}
+
+#divider {position: fixed; height: 100%; width: 1px; background: #f1f1f1; border-radius: 2px; left: 50%; top: 38px}

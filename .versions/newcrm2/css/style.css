@@ -1,5 +1,6 @@
 /* ---COMMON--- */
-body {line-height: 1; background: #fff; overflow-x: hidden; min-height:100%; font-size: 12px; font-family: 'Open Sans', tahoma, Arial, Sans; color: #666666}
+
+body {line-height: 1; background: #fff; overflow-x: hidden; height:auto !important; min-height:100%; font-size: 12px; font-family: 'Open Sans', tahoma, Arial, Sans; color: #666666}
 .clear {float: none; clear: both;}
 html, body {height:100% !important;}
 h1, h2, h3, h4, h5, h6 {	font-weight: normal;}
@@ -57,7 +58,6 @@ h1 {padding: 15px 0;}
 .sub-title h4 span{font-weight: 100; color: #aaa}
 .leftbar {padding: 0 0 0 10px}
 .rightbar {padding: 0 10px 0 0}
-.margt10 {margin-top: 10px}
 /* ---/COMMON/--- */
 
 
@@ -91,16 +91,10 @@ a.logged-user {padding: 0px}
 /* ---/TASKS/--- */
 
 /* ---COMMENTS--- */
-.comments-list {margin-left: 90}
+.comments-list {margin-left: 0}
 .comment {padding: 8px 0; border-top: 1px #f1f1f1 solid; }
 .comment h5{font-weight: 600}
 .comment h5 span{font-weight: normal}
 .comment-date {font-size: 11px; color: #bbb}
 .comment .avatar img{width: 48px; height: 48px; padding: 0 8px 8px 0; float: left}
-.add-files {padding: 50px 0; border: 5px dashed #f1f1f1;}
 /* ---/COMMENTS/--- */
-
-/*  ---MODALS--- */
-.modal label {font-size: 12px}
-.modal-body{max-height: 600px !important}
-/*  ---/MODALS--- */
